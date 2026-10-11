@@ -1,34 +1,32 @@
 #include <string>
-#include <vector>
 using namespace std;
 
 class Solution {
 public:
     string convert(string s, int numRows) {
-        if (numRows == 1 || numRows >= s.size()) {
+        int n = s.size();
+
+        if (numRows == 1 || numRows >= n)
             return s;
-        }
 
-        vector<string> rows(numRows);
-        int currentRow = 0;
-        int direction = -1;
+        string ans;
+        ans.reserve(n);
 
-        for (char c : s) {
-            rows[currentRow] += c;
+        int cycle = 2 * numRows - 2;
 
-            if (currentRow == 0 || currentRow == numRows - 1) {
-                direction *= -1;
+        for (int row = 0; row < numRows; row++) {
+            for (int j = row; j < n; j += cycle) {
+                ans += s[j];
+
+                int diagonal = j + cycle - 2 * row;
+
+                if (row != 0 && row != numRows - 1 &&
+                    diagonal < n) {
+                    ans += s[diagonal];
+                }
             }
-
-            currentRow += direction;
         }
 
-        string result;
-
-        for (const string& row : rows) {
-            result += row;
-        }
-
-        return result;
+        return ans;
     }
 };
