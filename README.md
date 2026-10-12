@@ -8,11 +8,13 @@ DSA Solving / Tracking Repo
 | ------- |
 | [0001-two-sum](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 ## Linked List
 |  |
 | ------- |
@@ -62,4 +64,12 @@ DSA Solving / Tracking Repo
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0005-longest-palindromic-substring) |
+## Greedy
+|  |
+| ------- |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
+## Bit Manipulation
+|  |
+| ------- |
+| [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 <!---LeetCode Topics End-->
