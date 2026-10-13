@@ -9,6 +9,7 @@ DSA Solving / Tracking Repo
 | [0001-two-sum](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Hash Table
 |  |
 | ------- |
@@ -68,8 +69,13 @@ DSA Solving / Tracking Repo
 |  |
 | ------- |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
+## Sorting
+|  |
+| ------- |
+| [3727-maximum-alternating-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3727-maximum-alternating-sum-of-squares) |
 <!---LeetCode Topics End-->
