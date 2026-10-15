@@ -9,6 +9,7 @@ DSA Solving / Tracking Repo
 | [0001-two-sum](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Hash Table
 |  |
@@ -16,6 +17,7 @@ DSA Solving / Tracking Repo
 | [0001-two-sum](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 ## Linked List
 |  |
 | ------- |
@@ -78,4 +80,12 @@ DSA Solving / Tracking Repo
 |  |
 | ------- |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3727-maximum-alternating-sum-of-squares) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+## Segment Tree
+|  |
+| ------- |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 <!---LeetCode Topics End-->
