@@ -26,6 +26,7 @@ DSA Solving / Tracking Repo
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0002-add-two-numbers) |
+| [0007-reverse-integer](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0007-reverse-integer) |
 | [0412-fizz-buzz](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0412-fizz-buzz) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/RohanSinghYadav7/LeetCode/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 ## Recursion
