@@ -10,6 +10,7 @@ DSA Solving / Tracking Repo
 | [0004-median-of-two-sorted-arrays](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+| [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3727-maximum-alternating-sum-of-squares) |
 ## Hash Table
 |  |
@@ -18,6 +19,7 @@ DSA Solving / Tracking Repo
 | [0003-longest-substring-without-repeating-characters](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+| [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 ## Linked List
 |  |
 | ------- |
@@ -85,8 +87,10 @@ DSA Solving / Tracking Repo
 |  |
 | ------- |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+| [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 ## Segment Tree
 |  |
 | ------- |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+| [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 <!---LeetCode Topics End-->
