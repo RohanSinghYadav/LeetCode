@@ -1,53 +1,60 @@
 class Solution {
     static constexpr long long MOD = 1'000'000'007;
+    vector<long long> tree, lazy;
     int n;
-    vector<long long> b1, b2;
 
-    void add(vector<long long>& bit, int i, long long v) {
-        for (; i <= n; i += i & -i)
-            bit[i] += v;
+    void apply(int p, int l, int r, long long d) {
+        tree[p] += d * (r - l + 1);
+        lazy[p] += d;
     }
 
-    long long query(const vector<long long>& bit, int i) {
-        long long s = 0;
-        for (; i > 0; i -= i & -i)
-            s += bit[i];
-        return s;
+    void push(int p, int l, int r) {
+        if (lazy[p] == 0 || l == r) return;
+
+        int m = (l + r) / 2;
+        apply(p * 2, l, m, lazy[p]);
+        apply(p * 2 + 1, m + 1, r, lazy[p]);
+        lazy[p] = 0;
     }
 
-    void rangeAdd(int l, int r) {
-        ++l;
-        ++r;
-        add(b1, l, 1);
-        add(b1, r + 1, -1);
-        add(b2, l, l - 1);
-        add(b2, r + 1, -r);
-    }
+    long long queryAndAdd(int p, int l, int r, int ql, int qr) {
+        if (ql <= l && r <= qr) {
+            long long oldSum = tree[p];
+            apply(p, l, r, 1);
+            return oldSum;
+        }
 
-    long long prefixSum(int i) {
-        return query(b1, i) * i - query(b2, i);
+        push(p, l, r);
+        int m = (l + r) / 2;
+        long long res = 0;
+
+        if (ql <= m)
+            res += queryAndAdd(p * 2, l, m, ql, qr);
+
+        if (qr > m)
+            res += queryAndAdd(p * 2 + 1, m + 1, r, ql, qr);
+
+        tree[p] = tree[p * 2] + tree[p * 2 + 1];
+        return res;
     }
 
 public:
     int sumCounts(vector<int>& nums) {
         n = nums.size();
-        b1.assign(n + 2, 0);
-        b2.assign(n + 2, 0);
+        tree.assign(4 * n, 0);
+        lazy.assign(4 * n, 0);
 
         vector<int> last(100001, -1);
-        long long curSq = 0, ans = 0;
+        long long cur = 0, ans = 0;
 
         for (int i = 0; i < n; ++i) {
             int l = last[nums[i]] + 1;
-            long long s = prefixSum(i + 1) - prefixSum(l);
-            long long len = i - l + 1LL;
+            long long s = queryAndAdd(1, 0, n - 1, l, i);
 
-            curSq = (curSq + 2 * s + len) % MOD;
+            cur = (cur + 2 * s + i - l + 1) % MOD;
+            ans = (ans + cur) % MOD;
 
-            rangeAdd(l, i);
             last[nums[i]] = i;
-
-            ans = (ans + curSq) % MOD;
         }
 
         return (int)ans;
