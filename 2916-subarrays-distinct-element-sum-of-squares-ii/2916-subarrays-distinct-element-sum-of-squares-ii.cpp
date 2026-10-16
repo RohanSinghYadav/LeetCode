@@ -1,60 +1,61 @@
 class Solution {
-    static constexpr long long MOD = 1'000'000'007;
-    vector<long long> tree, lazy;
     int n;
+    vector<long long> b1, b2;
 
-    void apply(int p, int l, int r, long long d) {
-        tree[p] += d * (r - l + 1);
-        lazy[p] += d;
+    void add(vector<long long>& bit, int i, long long v) {
+        for (; i <= n + 1; i += i & -i)
+            bit[i] += v;
     }
 
-    void push(int p, int l, int r) {
-        if (lazy[p] == 0 || l == r) return;
+    long long rangeSum(int l, int r) {
+        int a = r + 1, b = l;
+        int x = a, y = b;
+        long long a1 = 0, a2 = 0, b1s = 0, b2s = 0;
 
-        int m = (l + r) / 2;
-        apply(p * 2, l, m, lazy[p]);
-        apply(p * 2 + 1, m + 1, r, lazy[p]);
-        lazy[p] = 0;
-    }
-
-    long long queryAndAdd(int p, int l, int r, int ql, int qr) {
-        if (ql <= l && r <= qr) {
-            long long oldSum = tree[p];
-            apply(p, l, r, 1);
-            return oldSum;
+        while (a > 0 || b > 0) {
+            if (a > 0) {
+                a1 += b1[a];
+                a2 += b2[a];
+                a -= a & -a;
+            }
+            if (b > 0) {
+                b1s += b1[b];
+                b2s += b2[b];
+                b -= b & -b;
+            }
         }
 
-        push(p, l, r);
-        int m = (l + r) / 2;
-        long long res = 0;
+        return x * a1 - a2 - (y * b1s - b2s);
+    }
 
-        if (ql <= m)
-            res += queryAndAdd(p * 2, l, m, ql, qr);
-
-        if (qr > m)
-            res += queryAndAdd(p * 2 + 1, m + 1, r, ql, qr);
-
-        tree[p] = tree[p * 2] + tree[p * 2 + 1];
-        return res;
+    void rangeAdd(int l, int r) {
+        int L = l + 1, R = r + 1;
+        add(b1, L, 1);
+        add(b1, R + 1, -1);
+        add(b2, L, L - 1);
+        add(b2, R + 1, -R);
     }
 
 public:
     int sumCounts(vector<int>& nums) {
+        constexpr long long MOD = 1'000'000'007;
         n = nums.size();
-        tree.assign(4 * n, 0);
-        lazy.assign(4 * n, 0);
+        b1.assign(n + 2, 0);
+        b2.assign(n + 2, 0);
 
         vector<int> last(100001, -1);
         long long cur = 0, ans = 0;
 
         for (int i = 0; i < n; ++i) {
             int l = last[nums[i]] + 1;
-            long long s = queryAndAdd(1, 0, n - 1, l, i);
+            long long s = rangeSum(l, i);
+            long long len = i - l + 1LL;
 
-            cur = (cur + 2 * s + i - l + 1) % MOD;
-            ans = (ans + cur) % MOD;
+            cur = (cur + 2 * s + len) % MOD;
+            rangeAdd(l, i);
 
             last[nums[i]] = i;
+            ans = (ans + cur) % MOD;
         }
 
         return (int)ans;
