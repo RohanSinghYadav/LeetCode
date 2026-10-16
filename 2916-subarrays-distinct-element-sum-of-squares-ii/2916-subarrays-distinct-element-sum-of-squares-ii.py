@@ -2,66 +2,50 @@ class Solution:
     def sumCounts(self, nums: list[int]) -> int:
         MOD = 10**9 + 7
         n = len(nums)
-
-        total = [0] * (4 * n)
-        squares = [0] * (4 * n)
+        sums = [0] * (4 * n)
+        sq = [0] * (4 * n)
         lazy = [0] * (4 * n)
 
-        def apply(node, start, end, d):
-            length = end - start + 1
-
-            squares[node] = (
-                squares[node]
-                + 2 * d * total[node]
+        def apply(node, l, r, d):
+            length = r - l + 1
+            sums[node] = (sums[node] + d * length) % MOD
+            sq[node] = (
+                sq[node] + 2 * d * (sums[node] - d * length)
                 + d * d * length
             ) % MOD
-
-            total[node] = (total[node] + d * length) % MOD
             lazy[node] += d
 
-        def push(node, start, end):
-            if lazy[node] == 0 or start == end:
+        def push(node, l, r):
+            if lazy[node] and l < r:
+                m = (l + r) // 2
+                d = lazy[node]
+                apply(node * 2, l, m, d)
+                apply(node * 2 + 1, m + 1, r, d)
+                lazy[node] = 0
+
+        def update(node, l, r, ql, qr):
+            if ql <= l and r <= qr:
+                apply(node, l, r, 1)
                 return
 
-            mid = (start + end) // 2
-            d = lazy[node]
+            push(node, l, r)
+            m = (l + r) // 2
 
-            apply(node * 2, start, mid, d)
-            apply(node * 2 + 1, mid + 1, end, d)
+            if ql <= m:
+                update(node * 2, l, m, ql, qr)
+            if qr > m:
+                update(node * 2 + 1, m + 1, r, ql, qr)
 
-            lazy[node] = 0
-
-        def update(node, start, end, left, right):
-            if left <= start and end <= right:
-                apply(node, start, end, 1)
-                return
-
-            push(node, start, end)
-            mid = (start + end) // 2
-
-            if left <= mid:
-                update(node * 2, start, mid, left, right)
-
-            if right > mid:
-                update(node * 2 + 1, mid + 1, end, left, right)
-
-            total[node] = (
-                total[node * 2] + total[node * 2 + 1]
-            ) % MOD
-
-            squares[node] = (
-                squares[node * 2] + squares[node * 2 + 1]
-            ) % MOD
+            sums[node] = (sums[node * 2] + sums[node * 2 + 1]) % MOD
+            sq[node] = (sq[node * 2] + sq[node * 2 + 1]) % MOD
 
         last = {}
         ans = 0
 
         for i, x in enumerate(nums):
             left = last.get(x, -1) + 1
-
             update(1, 0, n - 1, left, i)
-
             last[x] = i
-            ans = (ans + squares[1]) % MOD
+            ans = (ans + sq[1]) % MOD
 
         return ans
