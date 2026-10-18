@@ -3,11 +3,15 @@ class Solution:
         MOD = 10**9 + 7
         n = len(nums)
 
-        comb = [[0] * (n + 1) for _ in range(n + 1)]
-        for i in range(n + 1):
-            comb[i][0] = comb[i][i] = 1
-            for j in range(1, i):
-                comb[i][j] = (comb[i - 1][j - 1] + comb[i - 1][j]) % MOD
+        fact = [1] * (n + 1)
+        invfact = [1] * (n + 1)
+
+        for i in range(1, n + 1):
+            fact[i] = fact[i - 1] * i % MOD
+
+        invfact[n] = pow(fact[n], MOD - 2, MOD)
+        for i in range(n, 0, -1):
+            invfact[i - 1] = invfact[i] * i % MOD
 
         def dfs(arr):
             m = len(arr)
@@ -15,16 +19,11 @@ class Solution:
                 return 1
 
             root = arr[0]
-            left = []
-            right = []
-
-            for x in arr[1:]:
-                if x < root:
-                    left.append(x)
-                else:
-                    right.append(x)
+            left = [x for x in arr if x < root]
+            right = [x for x in arr if x > root]
 
             a, b = len(left), len(right)
-            return comb[a + b][a] * dfs(left) % MOD * dfs(right) % MOD
+            ways = fact[a + b] * invfact[a] % MOD * invfact[b] % MOD
+            return ways * dfs(left) % MOD * dfs(right) % MOD
 
         return (dfs(nums) - 1) % MOD
