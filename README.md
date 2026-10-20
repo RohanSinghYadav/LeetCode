@@ -14,6 +14,7 @@ DSA Solving / Tracking Repo
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3727-maximum-alternating-sum-of-squares) |
+| [3886-sum-of-sortable-integers](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 ## Hash Table
 |  |
 | ------- |
@@ -34,6 +35,7 @@ DSA Solving / Tracking Repo
 | [0412-fizz-buzz](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0412-fizz-buzz) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/RohanSinghYadav7/LeetCode/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/RohanSinghYadav7/LeetCode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [3886-sum-of-sortable-integers](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 ## Recursion
 |  |
 | ------- |
@@ -90,6 +92,7 @@ DSA Solving / Tracking Repo
 | ------- |
 | [2089-find-target-indices-after-sorting-array](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2089-find-target-indices-after-sorting-array) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3727-maximum-alternating-sum-of-squares) |
+| [3886-sum-of-sortable-integers](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -128,4 +131,8 @@ DSA Solving / Tracking Repo
 |  |
 | ------- |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/RohanSinghYadav7/LeetCode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+## Enumeration
+|  |
+| ------- |
+| [3886-sum-of-sortable-integers](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 <!---LeetCode Topics End-->
