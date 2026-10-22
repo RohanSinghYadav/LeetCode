@@ -15,6 +15,7 @@ DSA Solving / Tracking Repo
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3886-sum-of-sortable-integers](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3886-sum-of-sortable-integers) |
+| [3942-minimum-operations-to-sort-a-permutation](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3942-minimum-operations-to-sort-a-permutation) |
 ## Hash Table
 |  |
 | ------- |
