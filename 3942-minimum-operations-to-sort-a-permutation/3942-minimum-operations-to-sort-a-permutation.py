@@ -1,27 +1,26 @@
+
 class Solution:
     def minOperations(self, nums: list[int]) -> int:
         n = len(nums)
-        p = nums.index(0)
 
-        forward = True
-        backward = True
+        def get_shift(arr):
+            shift = arr.index(0)
 
-        for j in range(n):
-            if nums[(p + j) % n] != j:
-                forward = False
-            if nums[(p - j) % n] != j:
-                backward = False
+            for j in range(n):
+                if arr[(shift + j) % n] != j:
+                    return -1
 
-            if not forward and not backward:
-                return -1
+            return shift
+
+        a = get_shift(nums)
+        b = get_shift(nums[::-1])
 
         ans = float('inf')
 
-        if forward:
-            ans = min(p, n - p + 2)
+        if a != -1:
+            ans = min(ans, a, n - a + 2)
 
-        if backward:
-            b = n - 1 - p
+        if b != -1:
             ans = min(ans, b + 1, n - b + 1)
 
-        return ans
+        return ans if ans != float('inf') else -1
