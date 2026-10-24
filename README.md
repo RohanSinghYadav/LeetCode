@@ -49,6 +49,7 @@ DSA Solving / Tracking Repo
 | [0003-longest-substring-without-repeating-characters](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0006-zigzag-conversion) |
+| [0008-string-to-integer-atoi](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0008-string-to-integer-atoi) |
 | [0412-fizz-buzz](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0412-fizz-buzz) |
 | [2409-count-days-spent-together](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2409-count-days-spent-together) |
 ## Sliding Window
