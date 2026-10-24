@@ -1,29 +1,33 @@
 class Solution:
     def myAtoi(self, s: str) -> int:
-        i, n = 0, len(s)
+        s = s.lstrip()
+        n = len(s)
+        if n == 0:
+            return 0
 
-        while i < n and s[i] == ' ':
-            i += 1
-
+        i = 0
         sign = 1
-        if i < n and s[i] in '+-':
-            if s[i] == '-':
-                sign = -1
-            i += 1
+
+        if s[0] == '-':
+            sign = -1
+            i = 1
+        elif s[0] == '+':
+            i = 1
 
         num = 0
-        INT_MAX = 2**31 - 1
-        INT_MIN = -(2**31)
+        limit = 2147483648 if sign < 0 else 2147483647
+        cutoff, last = divmod(limit, 10)
 
-        while i < n and '0' <= s[i] <= '9':
-            digit = ord(s[i]) - ord('0')
+        while i < n:
+            c = s[i]
+            if c < '0' or c > '9':
+                break
 
-            if num > INT_MAX // 10 or (
-                num == INT_MAX // 10 and digit > 7
-            ):
-                return INT_MAX if sign == 1 else INT_MIN
+            d = ord(c) - 48
+            if num > cutoff or (num == cutoff and d > last):
+                return -limit if sign < 0 else limit
 
-            num = num * 10 + digit
+            num = num * 10 + d
             i += 1
 
         return sign * num
