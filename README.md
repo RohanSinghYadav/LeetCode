@@ -37,6 +37,7 @@ DSA Solving / Tracking Repo
 | [0412-fizz-buzz](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0412-fizz-buzz) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/RohanSinghYadav7/LeetCode/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/RohanSinghYadav7/LeetCode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [2409-count-days-spent-together](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2409-count-days-spent-together) |
 | [3886-sum-of-sortable-integers](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 ## Recursion
 |  |
@@ -49,6 +50,7 @@ DSA Solving / Tracking Repo
 | [0005-longest-palindromic-substring](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0006-zigzag-conversion) |
 | [0412-fizz-buzz](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0412-fizz-buzz) |
+| [2409-count-days-spent-together](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2409-count-days-spent-together) |
 ## Sliding Window
 |  |
 | ------- |
