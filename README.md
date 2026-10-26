@@ -13,6 +13,7 @@ DSA Solving / Tracking Repo
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3886-sum-of-sortable-integers](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3886-sum-of-sortable-integers) |
@@ -117,6 +118,7 @@ DSA Solving / Tracking Repo
 |  |
 | ------- |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/RohanSinghYadav7/LeetCode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -141,4 +143,16 @@ DSA Solving / Tracking Repo
 |  |
 | ------- |
 | [3886-sum-of-sortable-integers](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3886-sum-of-sortable-integers) |
+## Depth-First Search
+|  |
+| ------- |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+## Breadth-First Search
+|  |
+| ------- |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
+## Matrix
+|  |
+| ------- |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 <!---LeetCode Topics End-->
