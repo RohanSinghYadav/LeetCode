@@ -46,6 +46,7 @@ DSA Solving / Tracking Repo
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0002-add-two-numbers) |
+| [0010-regular-expression-matching](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0010-regular-expression-matching) |
 ## String
 |  |
 | ------- |
@@ -53,6 +54,7 @@ DSA Solving / Tracking Repo
 | [0005-longest-palindromic-substring](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0006-zigzag-conversion) |
 | [0008-string-to-integer-atoi](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0008-string-to-integer-atoi) |
+| [0010-regular-expression-matching](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0010-regular-expression-matching) |
 | [0412-fizz-buzz](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0412-fizz-buzz) |
 | [2409-count-days-spent-together](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2409-count-days-spent-together) |
 ## Sliding Window
@@ -81,6 +83,7 @@ DSA Solving / Tracking Repo
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0010-regular-expression-matching](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0010-regular-expression-matching) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/RohanSinghYadav7/LeetCode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Manacher
