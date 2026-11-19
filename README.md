@@ -18,6 +18,7 @@ DSA Solving / Tracking Repo
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3665-twisted-mirror-path-count](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3665-twisted-mirror-path-count) |
 | [3727-maximum-alternating-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3727-maximum-alternating-sum-of-squares) |
+| [3875-construct-uniform-parity-array-i](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3882-minimum-xor-path-in-a-grid](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [3886-sum-of-sortable-integers](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 | [3942-minimum-operations-to-sort-a-permutation](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3942-minimum-operations-to-sort-a-permutation) |
@@ -45,6 +46,7 @@ DSA Solving / Tracking Repo
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/RohanSinghYadav7/LeetCode/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/RohanSinghYadav7/LeetCode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2409-count-days-spent-together](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2409-count-days-spent-together) |
+| [3875-construct-uniform-parity-array-i](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3886-sum-of-sortable-integers](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3886-sum-of-sortable-integers) |
 ## Recursion
 |  |
