@@ -49,6 +49,7 @@ DSA Solving / Tracking Repo
 | [0877-stone-game](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0877-stone-game) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/RohanSinghYadav7/LeetCode/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/RohanSinghYadav7/LeetCode/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [2396-strictly-palindromic-number](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2396-strictly-palindromic-number) |
 | [2409-count-days-spent-together](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2409-count-days-spent-together) |
 | [3875-construct-uniform-parity-array-i](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3875-construct-uniform-parity-array-i) |
 | [3886-sum-of-sortable-integers](https://github.com/RohanSinghYadav7/LeetCode/tree/master/3886-sum-of-sortable-integers) |
@@ -92,6 +93,7 @@ DSA Solving / Tracking Repo
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0011-container-with-most-water) |
+| [2396-strictly-palindromic-number](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2396-strictly-palindromic-number) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -192,4 +194,8 @@ DSA Solving / Tracking Repo
 |  |
 | ------- |
 | [0877-stone-game](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0877-stone-game) |
+## Brainteaser
+|  |
+| ------- |
+| [2396-strictly-palindromic-number](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2396-strictly-palindromic-number) |
 <!---LeetCode Topics End-->
