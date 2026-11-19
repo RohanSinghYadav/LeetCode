@@ -29,6 +29,7 @@ DSA Solving / Tracking Repo
 | [0001-two-sum](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0013-roman-to-integer) |
 | [2897-apply-operations-on-array-to-maximize-sum-of-squares](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2897-apply-operations-on-array-to-maximize-sum-of-squares) |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
@@ -43,6 +44,7 @@ DSA Solving / Tracking Repo
 | [0007-reverse-integer](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0009-palindrome-number) |
 | [0012-integer-to-roman](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0013-roman-to-integer) |
 | [0412-fizz-buzz](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0412-fizz-buzz) |
 | [0877-stone-game](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0877-stone-game) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/RohanSinghYadav7/LeetCode/tree/master/1523-count-odd-numbers-in-an-interval-range) |
@@ -64,6 +66,7 @@ DSA Solving / Tracking Repo
 | [0008-string-to-integer-atoi](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0008-string-to-integer-atoi) |
 | [0010-regular-expression-matching](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0010-regular-expression-matching) |
 | [0012-integer-to-roman](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0013-roman-to-integer) |
 | [0412-fizz-buzz](https://github.com/RohanSinghYadav7/LeetCode/tree/master/0412-fizz-buzz) |
 | [2409-count-days-spent-together](https://github.com/RohanSinghYadav7/LeetCode/tree/master/2409-count-days-spent-together) |
 ## Sliding Window
